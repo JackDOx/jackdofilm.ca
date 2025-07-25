@@ -17,8 +17,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="customer-service" options="-parameters" />
-      <module name="movie-service" options="-parameters" />
+      <module name="customer-service" options="-parameters --add-modules java.base" />
+      <module name="movie-service" options="-parameters --add-modules java.base" />
     </option>
   </component>
 </project>
